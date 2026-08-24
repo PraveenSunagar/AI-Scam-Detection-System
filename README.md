@@ -132,21 +132,6 @@ Open your browser and navigate to:
 }
 ```
 
-{
-  "text": "Dear customer, your SBI bank account has been blocked...",
-  "is_scam": true,
-  "label": "Scam",
-  "risk_score": 96.5,
-  "confidence": 96.5,
-  "risk_level": "High Risk Scam",
-  "category": "Banking / KYC Fraud",
-  "triggers": [
-    {
-      "text": "account has been blocked",
-      "category": "urgency",
-      "start": 28,
-      "end": 52
-    },
     {
       "text": "http://sbi-kyc-verify.xyz/login",
       "category": "suspicious_link",
