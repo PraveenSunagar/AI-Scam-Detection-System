@@ -132,8 +132,6 @@ Open your browser and navigate to:
 }
 ```
 
-**Response Payload:**
-```json
 {
   "text": "Dear customer, your SBI bank account has been blocked...",
   "is_scam": true,
