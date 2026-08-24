@@ -118,7 +118,7 @@ Open your browser and navigate to:
 
 ---
 
-## 📡 REST API Reference
+
 
 ### 1. Detect Single Message
 `POST /api/detect`
