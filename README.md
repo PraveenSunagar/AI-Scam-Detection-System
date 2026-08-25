@@ -145,21 +145,7 @@ Open your browser and navigate to:
     "emails": [],
     "currencies": []
   },
-  "indicators": {
-    "urgency_score": 0.7,
-    "financial_score": 0.8,
-    "threat_score": 0.0,
-    "link_score": 0.9,
-    "caps_ratio": 0.08
-  },
-  "explanation": "Flagged as Banking / KYC Fraud with a 96.5% risk score. The system detected multiple threat indicators: high-pressure urgency; requests for banking credentials; suspicious third-party links.",
-  "action_advice": [
-    "DO NOT click any link or provide your OTP, PIN, CVV, or NetBanking password.",
-    "Banks never ask for sensitive credentials or KYC updates via unverified SMS/Email links.",
-    "Contact your bank directly using the official phone number on the back of your card."
-  ]
-}
-```
+ 
 
 ### 2. Batch Detect Messages
 `POST /api/batch-detect`
