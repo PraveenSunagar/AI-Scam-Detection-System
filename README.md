@@ -150,16 +150,6 @@ Open your browser and navigate to:
 ### 2. Batch Detect Messages
 `POST /api/batch-detect`
 
-**Request Payload:**
-```json
-{
-  "messages": [
-    "Your package could not be delivered. Pay $1.99 fee at http://usps-redelivery.info",
-    "Hey David, are we still meeting for lunch at 12:30 PM?"
-  ]
-}
-```
-
 ### 3. Upload & Scan CSV
 `POST /api/upload-csv`
 Upload a multipart form-data `.csv` file containing text rows for bulk scanning.
