@@ -11,7 +11,7 @@ import json
 import pandas as pd
 from typing import List, Optional, Dict, Any
 
-# Ensure UTF-8 output on Windows
+# Ensure UTF-8 output 
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8")
 
