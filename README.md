@@ -24,7 +24,6 @@ Built with a hybrid **TF-IDF + Soft Voting Machine Learning Ensemble** (Logistic
 - **📑 Automated Interactive Swagger Docs**: Available out of the box at `/docs` and `/redoc`.
 
 ---
-
 ## 🧠 System Architecture & Workflow
 
 ```mermaid
