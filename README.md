@@ -9,7 +9,6 @@
 An intelligent, real-time **AI Scam & Phishing Detection System** built to identify, classify, and neutralize fraudulent messages, smishing, credential harvesting, lottery scams, crypto giveaways, and deceptive links before they compromise users.
 
 Built with a hybrid **TF-IDF + Soft Voting Machine Learning Ensemble** (Logistic Regression & Multinomial Naive Bayes), a high-performance **FastAPI REST backend**, and a modern **cybersecurity glassmorphism web dashboard**.
-
 ---
 ## 🚀 Key Features
 
