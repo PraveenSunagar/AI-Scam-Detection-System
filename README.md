@@ -172,7 +172,6 @@ Upload a multipart form-data `.csv` file containing text rows for bulk scanning.
 ---
 
 ## 🔒 Supported Fraud Verticals
-
 1. **Banking & KYC Fraud**: Fake deactivation alerts, PAN card updates, credential harvesting.
 2. **Phishing & Account Security**: Fake Netflix/Google/Apple/Amazon account suspension notices.
 3. **Lottery & Prize Scams**: Bogus sweepstakes, Mega Millions, gift card giveaways.
