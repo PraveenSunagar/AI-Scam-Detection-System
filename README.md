@@ -51,7 +51,6 @@ flowchart TD
 - **Serialization**: Joblib, JSON
 
 ---
-
 ## 📂 Project Structure
 
 ```
