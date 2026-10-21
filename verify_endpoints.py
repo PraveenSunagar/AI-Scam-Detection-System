@@ -41,7 +41,7 @@ def verify_all():
         assert r_root.status_code == 200
         assert "<title>AI Scam Detection System" in r_root.text
 
-        # 2. CSS Stylesheet
+    
         r_css = client.get("/static/css/styles.css")
         print(f"[+] GET /static/css/styles.css -> Status: {r_css.status_code} | Size: {len(r_css.text)} bytes")
         assert r_css.status_code == 200
