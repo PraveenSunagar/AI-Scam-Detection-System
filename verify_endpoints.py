@@ -35,7 +35,6 @@ def verify_all():
 
         client = httpx.Client(base_url=BASE_URL, timeout=10.0)
 
-        # 1. Root / UI Page
         r_root = client.get("/")
         print(f"[+] GET / -> Status: {r_root.status_code} | Size: {len(r_root.text)} bytes")
         assert r_root.status_code == 200
