@@ -49,7 +49,6 @@ def verify_all():
         print(f"[+] GET /static/js/app.js -> Status: {r_js.status_code} | Size: {len(r_js.text)} bytes")
         assert r_js.status_code == 200
 
-        # 4. API Health
         r_health = client.get("/api/health")
         print(f"[+] GET /api/health -> Status: {r_health.status_code} | Response: {r_health.json()}")
         assert r_health.status_code == 200
