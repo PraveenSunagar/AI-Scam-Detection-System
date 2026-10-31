@@ -45,7 +45,6 @@ def verify_all():
         print(f"[+] GET /static/css/styles.css -> Status: {r_css.status_code} | Size: {len(r_css.text)} bytes")
         assert r_css.status_code == 200
 
-        # 3. JavaScript App
         r_js = client.get("/static/js/app.js")
         print(f"[+] GET /static/js/app.js -> Status: {r_js.status_code} | Size: {len(r_js.text)} bytes")
         assert r_js.status_code == 200
