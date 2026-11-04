@@ -25,7 +25,6 @@ Built with a hybrid **TF-IDF + Soft Voting Machine Learning Ensemble** (Logistic
 
 ---
 ## 🧠 System Architecture & Workflow
-
 ```mermaid
 flowchart TD
     A[User Input / API Request] --> B[Text Preprocessor]
