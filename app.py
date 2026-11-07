@@ -32,7 +32,6 @@ app = FastAPI(
     redoc_url="/redoc"
 )
 
-# Enable CORS for cross-origin requests
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
