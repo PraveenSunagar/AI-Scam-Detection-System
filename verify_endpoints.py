@@ -23,7 +23,7 @@ def ensure_server_running():
     
     print("[*] Server is not running. Automatically starting background server on http://127.0.0.1:8000...")
     proc = subprocess.Popen([sys.executable, "app.py"], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
-    time.sleep(2.5)  # Allow FastAPI server to start
+    time.sleep(2.5)  # Allow FastAPI 
     return proc
 
 def verify_all():
