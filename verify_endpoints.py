@@ -17,7 +17,7 @@ def ensure_server_running():
     try:
         r = httpx.get(f"{BASE_URL}/api/health", timeout=1.0)
         if r.status_code == 200:
-            return None  # Server is already running
+            return None  # Server is
     except Exception:
         pass
     
