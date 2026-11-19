@@ -47,7 +47,6 @@ os.makedirs("static/js", exist_ok=True)
 app.mount("/static", StaticFiles(directory="static"), name="static")
 
 
-# Pydantic 
 class DetectRequest(BaseModel):
     model_config = ConfigDict(
         json_schema_extra={
