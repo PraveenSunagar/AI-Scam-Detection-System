@@ -150,7 +150,7 @@ async def upload_and_scan_csv(file: UploadFile = File(...)):
         contents = await file.read()
         df = pd.read_csv(io.StringIO(contents.decode("utf-8", errors="ignore")))
         
-        # Determine text column
+        # Determine 
         text_col = "text"
         if "text" not in df.columns:
             text_col = df.columns[0]
