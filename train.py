@@ -11,7 +11,7 @@ import numpy as np
 import pandas as pd
 from datetime import datetime
 
-# Ensure utf-8 output on Windows consoles
+# Ensure utf-8 output on 
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8")
 
