@@ -46,7 +46,7 @@ def train_scam_detector():
     os.makedirs(MODEL_DIR, exist_ok=True)
     os.makedirs("data", exist_ok=True)
 
-    # 1. Load or generate dataset
+    # 1. Load or 
     print("\n[1/5] Loading training dataset...", flush=True)
     df = ensure_dataset_exists("data/scam_dataset.csv")
     print(f"Loaded {len(df)} total samples.", flush=True)
