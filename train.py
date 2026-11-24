@@ -52,7 +52,7 @@ def train_scam_detector():
     print(f"Scam samples: {int((df['label'] == 1).sum())} | Legitimate samples: {int((df['label'] == 0).sum())}", flush=True)
     print(f"Categories present: {df['category'].nunique()}", flush=True)
 
-    # 2. Text Preprocessing
+    # 2. Text 
     print("\n[2/5] Cleaning and normalizing text features...", flush=True)
     df["cleaned_text"] = df["text"].apply(lambda t: preprocessor.clean_text(str(t), remove_stopwords=False))
 
