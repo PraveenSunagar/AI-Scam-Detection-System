@@ -62,8 +62,7 @@ def train_scam_detector():
         random_state=42,
         stratify=df["label"]
     )
-
-    # 3. TF-IDF Feature Extraction
+Feature Extraction
     print("\n[3/5] Extracting TF-IDF features (unigrams + bigrams)...", flush=True)
     vectorizer = TfidfVectorizer(
         ngram_range=(1, 2),
