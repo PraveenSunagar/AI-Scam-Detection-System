@@ -74,7 +74,6 @@ def train_scam_detector():
     X_test_vec = vectorizer.transform(X_test_raw)
     print(f"TF-IDF Vocabulary size: {len(vectorizer.vocabulary_)} features", flush=True)
 
-    # 4. Fast 
     print("\n[4/5] Training Classifiers...", flush=True)
     
     # Train Logistic Regression
